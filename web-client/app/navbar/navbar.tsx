@@ -27,7 +27,7 @@ export default function Navbar() {
     <nav className="bg-white dark:bg-gray-900 w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600 mb-10">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="/" className="flex items-center">
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">YouTube Clone</span>
+          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Video Sharing Platform</span>
       </a>
       <div className="flex md:order-2">
           <SignIn user={user}/>
